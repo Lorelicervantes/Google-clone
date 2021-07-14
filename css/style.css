@@ -1,3 +1,5 @@
+/* selectores generales */
+
 body {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
@@ -11,6 +13,8 @@ header {
 a {
     text-decoration: none;
 }
+
+/* aqui inicia los estilos al header*/
 
 header nav {
     display: flex;
@@ -48,8 +52,17 @@ main {
     margin-top: 150px;
     text-align: center;
 }
+
+/* aqui empiezan los estilos al main */
+
 main .main-logo {
     width: 550px;
     margin: 0 auto;
     margin-bottom: 35px;
 }
+
+main .main-logo img {
+    width: 300px;
+}
+
+/* aqui empiezan los estilos al input */
