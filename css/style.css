@@ -1,7 +1,7 @@
 /* selectores generales */
 
 body {
-    font-size: 14px;
+    font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -12,6 +12,7 @@ header {
 
 a {
     text-decoration: none;
+    color: rgba(0,0,0,0.87);
 }
 
 /* aqui inicia los estilos al header*/
@@ -31,7 +32,7 @@ header nav .nav-right-section{
 }
 
 nav .nav-right-section a{
-    margin-right: 15px;
+    margin-right: 20px;
     color: black;
 }
 
@@ -41,12 +42,12 @@ nav .nav-right-section .menu-icon{
     background-position: center;
     background-size: contain;
     width: 25px;
-    height: 20px;
+    height: 18px;
 }
 
 nav .nav-right-section img{
     border-radius: 50%;
-    margin-left: 15px;
+    margin-left: 20px;
 }
 main {
     margin-top: 150px;
@@ -66,3 +67,33 @@ main .main-logo img {
 }
 
 /* aqui empiezan los estilos al input */
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container {
+   width: 525px;
+   border-radius: 100px;
+   border: 1px solid #edeef0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+main .main-input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+/* integrando iconos*/
+
